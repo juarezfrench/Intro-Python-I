@@ -15,3 +15,10 @@ z = "I like turtles!"
 # Use the 'format' string method to print the same thing
 
 # Finally, print the same thing using an f-string
+
+print("x = %d  and y = %f, but best of all %s" % (x, y, z))
+
+print("x = {0} and y = {1}, but best of all {2}".format(x, y, z))
+
+
+
